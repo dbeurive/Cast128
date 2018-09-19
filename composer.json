@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0",
+  "name": "dbeurive/cast128",
+  "description": "This project implements the RFC 2144 - The CAST-128 Encryption Algorithm.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Denis BEURIVE",
+      "email": "denis.beurive@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "dbeurive\\Cast128\\": "src"
+    }
+  },
+  "require": {
+    "php": "^7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": ">=5.5.0",
+    "phpdocumentor/phpdocumentor": "2.*"
+  }
+}
